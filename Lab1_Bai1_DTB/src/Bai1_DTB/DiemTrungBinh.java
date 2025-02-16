@@ -17,9 +17,11 @@ public class DiemTrungBinh {
 		System.out.print("Nhập họ và tên:");
 		String hoTen = scanner.nextLine();
 		System.out.print("Nhập điểm trung bình:");
-		String diemTB = scanner.nextLine();
-		// TODO Auto-generated method stub
-
+		double diemTB = scanner.nextDouble();
+		System.out.println("Họ và tên:" + hoTen);
+		System.out.println("Điểm trung bình:" + diemTB);
+		scanner.close();
+		
 	}
 
 }
